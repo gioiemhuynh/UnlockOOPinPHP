@@ -1,0 +1,17 @@
+{
+  "name": "Tlait/unlock_OPPinPHP",
+  "description": "This is project to understan about PHP and OOP in PHP",
+  "authors": [
+    {
+      "name": "tla",
+      "email": "em.huynh@nfq.asia"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Tlait\\Unlock_OPPinPHP\\": "src/"
+    }
+  }
+}
