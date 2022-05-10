@@ -10,18 +10,26 @@ class Animal
     //Methods
     function setName($name)
     {
-        $this->name=$name;
+        $this->name = $name;
     }
-    function setType ($type){
+
+    function setType($type)
+    {
         $this->type = $type;
     }
-    function  setColor ($color){
-        $this->color=$color;
+
+    function setColor($color)
+    {
+        $this->color = $color;
     }
-    function getInformation(){
-        return `He is $this->name, a $this->color $this->type` ;
+
+    function getInformation()
+    {
+        echo "He is " . $this->name . ", a " . $this->color . " " . $this->type;
+        echo "<br>";
     }
 }
+
 /*
  *Object dog
  */
