@@ -8,7 +8,7 @@ class Animal
     public $color;
 
     //Constructor function
-    public function __construct($name, $type, $color)
+    public function __construct($name="", $type="", $color="")
     {
         $this->name = $name;
         $this->type = $type;
@@ -27,7 +27,8 @@ class Animal
 /*
  *Object dog
  */
-$dog = new Animal("KiKi", "Dog", "black");
+$dog = new Animal();
+$dog->name = "KiKi";
 $dog->getInformation();
 /*
  *Object dog

@@ -1,4 +1,6 @@
 <?php
+require_once "vendor/autoload.php";
+
 echo '<a href="src/LearnOOP/classInPhp.php">Class without constructor</a><br>';
 echo '<a href="src/LearnOOP/constructorInPhp.php">Class with constructor</a><br>';
 echo '<a href="src/LearnOOP/abstractClassInPhp.php">AbstractClass</a><br>';

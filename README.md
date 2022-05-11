@@ -1,4 +1,4 @@
-# unlock_OOPInPhp
+# UnlockOOPinPHP
 
 This is repo to lear about OOP in PHP
 Author: Huynh Van Gioi Em - TLAIT
@@ -45,4 +45,4 @@ Author: Huynh Van Gioi Em - TLAIT
     + They allow for better organization by grouping classes that work together to perform a task
     + They allow the same name to be used for more than one class
 
-P/s: Nest task: try to build an app with MVC model 
+P/s: Next task: try to build an app with MVC model 
