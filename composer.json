@@ -1,5 +1,5 @@
 {
-  "name": "Tlait/unlock_OPPinPHP",
+  "name": "tlait/unlock",
   "description": "This is project to understan about PHP and OOP in PHP",
   "authors": [
     {
@@ -11,7 +11,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tlait\\Unlock_OPPinPHP\\": "src/"
+      "Tlait\\UnlockOOPinPHP\\": "src/"
     }
   }
 }

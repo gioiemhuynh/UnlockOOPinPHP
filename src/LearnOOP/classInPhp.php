@@ -23,11 +23,7 @@ class Animal
         $this->color = $color;
     }
 
-    function getInformation()
-    {
-        echo "He is " . $this->name . ", a " . $this->color . " " . $this->type;
-        echo "<br>";
-    }
+
 }
 
 /*

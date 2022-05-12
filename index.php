@@ -1,8 +1,17 @@
 <?php
 require_once "vendor/autoload.php";
 
-echo '<a href="src/LearnOOP/classInPhp.php">Class without constructor</a><br>';
-echo '<a href="src/LearnOOP/constructorInPhp.php">Class with constructor</a><br>';
-echo '<a href="src/LearnOOP/abstractClassInPhp.php">AbstractClass</a><br>';
-echo '<a href="src/LearnOOP/interfacesInPhp.php">Interface</a><br>';
-echo '<a href="src/LearnOOP/traitsInPhp.php">Trait</a><br>';
+use Tlait\UnlockOOPinPHP\LearnOOP\AbstractClass\ShowAnimal as ShowAnimalAb;
+use Tlait\UnlockOOPinPHP\LearnOOP\AbstractClass\Cat as CatAb;
+use Tlait\UnlockOOPinPHP\LearnOOP\AbstractClass\Dog as DogAb;
+
+echo "Example about abstract class";
+$catUseAbstract = new CatAb("MiMi", "female", "pate");
+$dogUseAbstract = new DogAb("KiKi", "male", "rice");
+$showAnimal = new ShowAnimalAb();
+$showAnimal->show($catUseAbstract);
+echo "<br>";
+$showAnimal->show($dogUseAbstract);
+echo "<br>";
+
+echo "Example about class";
