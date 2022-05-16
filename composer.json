@@ -7,11 +7,17 @@
       "email": "em.huynh@nfq.asia"
     }
   ],
-  "require": {
-  },
   "autoload": {
     "psr-4": {
       "Tlait\\UnlockOOPinPHP\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tlait\\UnlockOOPinPHP\\Test\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9"
   }
 }

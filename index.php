@@ -37,9 +37,9 @@ $catUseAbstract = new CatAb("MiMi", "female", "pate");
 $dogUseAbstract = new DogAb("KiKi", "male", "rice");
 $showAnimal = new ShowAnimalAb();
 
-$showAnimal->show($catUseAbstract);
+echo $showAnimal->show($catUseAbstract);
 echo "<br>";
-$showAnimal->show($dogUseAbstract);
+echo $showAnimal->show($dogUseAbstract);
 echo "<br>";
 echo "<br>";
 
@@ -47,15 +47,15 @@ echo "Example about interface:";
 echo "<br>";
 $cat = new Cat();
 $dog = new Dog();
-echo "Cat say: ".$cat->makeSound();
+echo "Cat say: " . $cat->makeSound();
 echo "<br>";
-echo "Dog say: ".$dog->makeSound();
+echo "Dog say: " . $dog->makeSound();
 echo "<br>";
 echo "<br>";
 
 echo "Example about traits:";
 echo "<br>";
 $persion1 = new PersionSay();
-echo $persion1->sayHello().". ";
+echo $persion1->sayHello() . ". ";
 echo $persion1->sayWelcome();
 echo "<br>";

@@ -8,8 +8,8 @@ class ShowAnimal
      * @param $animal
      * @return void
      */
-    public function show($animal):void
+    public function show($animal): string
     {
-        echo "Name: " . $animal->name . ", Sex: " . $animal->sex . ", Food: " . $animal->food;
+        return "Name: " . $animal->name . ", Sex: " . $animal->sex . ", Food: " . $animal->food;
     }
 }
